@@ -9,6 +9,13 @@ import java.util.Scanner;
 public class Paint {
   public static void main(String[] args) {
     final int COVERAGE = 350;  //paint covers 350 sq ft/gal
+    int door = 20;
+    int window = 15;
+    Scanner  scanner = new Scanner(System.in);
+    System.out.println("How many Windows are in the room?: ");
+    
+    System.out.println("How many Doors are in the room?: ");
+
       // Declare integers length, width, and height.
       // Declare double totalSqFt;
       // Declare double paintNeeded;

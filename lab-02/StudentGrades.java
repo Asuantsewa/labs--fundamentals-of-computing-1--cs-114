@@ -17,11 +17,11 @@ public class StudentGrades {
             "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\///////////////////");
 
 System.out.println("   ");
-System.out.println("NAME       LAB       BONUS       TOTAL");
-System.out.println("Jeremy       30        15"       + jTotal);
-System.out.println("Joe          43         7"         +joeTotal);
-System.out.println("William      50         8"         +wilTotal);
-System.out.println("Mary Sue     39        10"      +   mTotal);
-System.out.println("Samuel       50        15"         +sTotal);
+System.out.println("NAME       LAB       BONUS      TOTAL");
+System.out.println("Jeremy       30        15      "  + jTotal);
+System.out.println("Joe          43         7      "  + joeTotal);
+System.out.println("William      50         8      "  + wilTotal);
+System.out.println("Mary Sue     39        10      "  + mTotal);
+System.out.println("Samuel       50        15      "  + sTotal);
   }
 }
