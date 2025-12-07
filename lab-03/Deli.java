@@ -6,6 +6,8 @@
 // *****************************************************************************
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
+import java.text.NumberFormat; 
 
 public class Deli {
   // ---------------------------------------------------------------------------
@@ -25,19 +27,24 @@ public class Deli {
 
     // Declare money as a NumberFormat object and use the
     // getCurrencyInstance method to assign it a value
+    NumberFormat money = NumberFormat.getCurrencyInstance(null);
 
     // Declare fmt as a DecimalFormat object and instantiate it using the
     // pattern "0.##" it will format numbers with at least one digit to the left
     // of the decimal and round the fractional part to two digits.
+    DecimalFormat fmt = new DecimalFormat("0.00");
 
     // prompt the user and read in each input
     System.out.println ("Welcome to the CS Deli!!\n ");
 
     System.out.print ("Enter the price per pound of your item: ");
     pricePerPound = input.nextDouble();
+    String formattedPricePerPound = money.format(pricePerPound);
 
     System.out.print ("Enter the weight (ounces): ");
     weightOunces = input.nextDouble();
+    String formattedweightOunces= fmt.format(weightOunces);
+
 
     // Convert ounces to pounds and compute the total price
     weight = weightOunces / OUNCES_PER_POUND;
@@ -45,5 +52,10 @@ public class Deli {
 
     // Print the label using the formatting objects
     // fmt for the weight in pounds and money for the prices
+    System.out.println("Unit price " + pricePerPound.NumberFormat );
+    System.out.println("Weight of product " + );
+
+
+    System.out.println("Total  price " + );
     }
 }
