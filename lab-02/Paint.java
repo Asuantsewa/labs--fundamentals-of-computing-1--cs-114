@@ -19,9 +19,9 @@ public class Paint {
     int sizeToTakeOut = ((door * numberOfDoors) + (window * numberOfWindows));
 
       // Declare integers length, width, and height
-      int width = 12;
-      int length = 12;
-      int height = 30;
+      int width=0;
+      int length = 0;
+      int height=0;
       // Declare double totalSqFt;
       double totalSqFt = ((length * width * 4) + height);
       // Declare double paintNeeded;
@@ -50,5 +50,6 @@ public class Paint {
       System.out.println("Number of gallons of paint needed: " + paintNeeded2/350);
 
       scanner.close();
+      scan.close();
   }
 }
