@@ -24,6 +24,10 @@ public class Distance {
     y2 = input.nextDouble();
 
     // Compute the distance
+    double points1 = (x1 + y1);
+    double points2 = (x2 + y2);
+
+    double 
 
     // Print out the answer
 
